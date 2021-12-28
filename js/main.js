@@ -11,7 +11,6 @@ document.addEventListener('input', newPhoto);
 var form = document.querySelector('form');
 var title = document.getElementById('title-name');
 var notes = document.getElementById('Notes');
-localStorage.setItem(data, data);
 
 function formEntry(event) {
   event.preventDefault();
